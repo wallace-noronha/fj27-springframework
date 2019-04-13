@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
 
-	@RequestMapping
+	@RequestMapping("helloworld")
 	@ResponseBody
 	public String index() {
 		System.out.println("Hello World");

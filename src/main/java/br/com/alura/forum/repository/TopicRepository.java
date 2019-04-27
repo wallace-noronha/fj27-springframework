@@ -14,4 +14,6 @@ public interface TopicRepository extends Repository<Topic, Long>, JpaSpecificati
 	List<Topic> list();
 	
 	List<Topic> findAll();
+	
+	
 }
